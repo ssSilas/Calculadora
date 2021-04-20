@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <script type="text/javascript" src="calculadora.js"></script>
+    <link rel="shortcut icon" href="calculator.ico" type="image/x-icon">
+    <title>Calculadora Basico</title>
+</head>
+
+<body>
+    <header>Calculadora</header>
+    <section>
+        <input type="text" id="screen" maxlength="23" 
+        onkeypress='return event.charCode >= 48 && event.charCode <= 57'></input>
+        <p>
+            <button id="sev">7</button>
+            <button id="eig">8</button>
+            <button id="nin">9</button>
+            <button id="cle" class="oper">C</button>
+        </p>
+        <p>
+            <button id="fou">4</button>
+            <button id="fiv">5</button>
+            <button id="six">6</button>
+            <button id="divi" class="oper">/</button>
+        </p>
+        <p>
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="thr">3</button>
+            <button id="mult" class="oper">x</button>
+        </p>
+        <p>
+            <button id="zer">0</button>
+            <button id="sum" class="oper">+</button>
+            <button id="subt" class="oper">-</button>
+            <button id="resu" class="oper">=</button>
+        </p>
+    </section>
+</body>
+</html>

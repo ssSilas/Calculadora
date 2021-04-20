@@ -1,0 +1,34 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    color: rgb(250, 250, 250);background-image: radial-gradient(circle,#25362c,#524e49,#383535,#524939);
+}
+section {
+    background-image: linear-gradient(90deg, #26172e 20%, #232724, #27053a,
+    #222c27);
+    margin-left: 35%;
+    padding-top: 1.5%;
+    width: 400px;height: 410px;
+    text-align: center;
+    border-radius: 4%;
+    box-shadow: 2px 2px 3px black;
+}
+header {font-size: 50px;text-align: center; font-weight: bold;}
+#screen {
+    color: black;font-size: 34px;
+    background-color: #ddeee4;
+    text-align: right;
+    width: 360px;height: 63px;
+    border: none;border-radius: 15%;
+}
+button, .oper {
+    font-size: 28px;text-align: center;
+    margin-top: 5px;
+    box-shadow: none;border-radius: 30%;border: none;
+    width: 85px; height: 50px;
+    outline: none;
+}
+#cle{
+    background-color: #8d6f9e;
+}
+.oper {background-color: #638573;font-weight: bold;}
